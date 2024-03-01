@@ -34,7 +34,7 @@
     background-color: white;
     color: black;
     #container_navbar{
-        padding: 20px;
+        padding: 20px 0;
         display: flex; 
         justify-content: space-between;
         align-items: center;
