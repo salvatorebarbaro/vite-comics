@@ -16,7 +16,7 @@
 </script>
 <template>
     <div id="Navbar">
-        <div id="container_navbar">
+        <div class="container" id="container_navbar">
             <img src="/src/assets/img/dc-logo.png" alt="">
             <ul >
                             <!-- abbiamo ciclato per poter dare i valori ed il numero di valori di li    -->
@@ -26,24 +26,22 @@
                 
             </ul>
         </div>
-        
-        
-        
     </div>
 </template>
 <style lang="scss">
 #Navbar{
-    width: 100vw;
+    
     background-color: white;
     color: black;
     #container_navbar{
         padding: 20px;
-        display: flex;
-        justify-content: center;
-        gap: 480px;
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
         ul{
             display: flex;
-            gap: 32px;
+            gap: 30px;
             align-items: center;
             list-style-type: none;
             li{
