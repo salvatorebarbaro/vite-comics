@@ -1,10 +1,15 @@
 <script >
 import AppNavbar from './components/AppNavbar.vue';
 import AppFooter from './components/AppFooter.vue';
+import AppJumbotron from './components/AppJumbotron.vue';
+import AppComics from './components/AppComics.vue';
 export default{
     components:{
         AppNavbar,
         AppFooter,
+        AppJumbotron,
+        AppComics,
+
     },
 
     data(){
@@ -17,6 +22,8 @@ export default{
 
 <template>
     <AppNavbar></AppNavbar>
+    <AppJumbotron></AppJumbotron>
+    <AppComics></AppComics>
     <AppFooter></AppFooter>
   
 </template>

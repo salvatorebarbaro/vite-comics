@@ -75,6 +75,7 @@ export default{
                 text-transform: uppercase;
                 font-size: 14px;
                 font-weight: 700;
+               
             }
         }
     }
